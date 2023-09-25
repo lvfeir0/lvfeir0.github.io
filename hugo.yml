@@ -3,10 +3,24 @@ languageCode : en-us
 title : taki's blog
 theme : PaperMod
 publishDir : docs
+enableEmoji : true
 
 
 params:
 
   homeInfoParams:
-    Title: celeberate everyday
+    Title: celeberate everyday 
     Content: welcome to my blog
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+
+
+

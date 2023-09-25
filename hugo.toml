@@ -1,5 +1,0 @@
-baseURL = 'https://lvfeir0.github.io/'
-languageCode = 'en-us'
-title = "taki's blog"
-theme = 'PaperMod'
-publishDir = "docs"
