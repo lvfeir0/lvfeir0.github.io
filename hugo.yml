@@ -13,14 +13,11 @@ params:
     Content: welcome to my blog
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - name: All
+      url: archives/
+      weight: 5
+    - name: Search
+      url: search/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-
 
 
