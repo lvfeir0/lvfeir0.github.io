@@ -1,0 +1,17 @@
+baseURL = 'https://lvfeir0.github.io/'
+languageCode = 'en-us'
+title = "taki's blog"
+theme = 'PaperMod'
+publishDir = 'docs'
+enableEmoji = 'true'
+
+
+[params.homeInfoParams]
+Title = "celeberate everyday"
+Content = "welcome to my blog"
+
+[[menu.main]]
+name = "All"
+url = "archives/"
+weight = 5
+
