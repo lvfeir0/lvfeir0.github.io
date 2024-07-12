@@ -5,6 +5,10 @@ theme = 'PaperMod'
 publishDir = 'docs'
 enableEmoji = 'true'
 
+[params]
+  [params.assets]
+    disableFingerprinting = true
+
 
 [params.homeInfoParams]
 Title = "1111111111111"
@@ -14,3 +18,4 @@ Content = "welcome to my blog"
 name = "All"
 url = "archives/"
 weight = 5
+
